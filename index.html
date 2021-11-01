@@ -1,0 +1,85 @@
+<!doctype HTML>
+<html>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <!-- <script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script> -->
+    <script type="text/javascript" src="songlist.json"></script>
+    <script type ="text/javascript" src = "script.js"></script>
+    <head>
+        <meta charset = "utf-8">
+        <title> Hello</title>
+    </head>
+    <!-- <script src = "songlist.json"></script> -->
+    <script language = 'javascript'>
+        var mydata = JSON.parse(songlist);
+        alert(mydata[0]);
+
+        // $.get('songlist.json',
+        // function(data) {
+        //     strSongs = JSON.stringify(data);
+        //     document.write(strSongs + "<br/>");
+        //     strHTML = "<ul>";
+        //     data.forEach(function(song) {
+        //         strHTML += "<li>"
+        //                 + song.title
+        //                 + song.artists
+        //                 + song.genre
+        //                  + song.year;
+        //     })
+        //     strHTML += "</ul>";
+        //     document.write(strHTML)
+        // })
+    
+    // infile = open("songlist.json", "r")
+    // console.log(infile)
+    // jsonStr = JSON.stringify(infile)
+    // document.write(jsonStr)
+
+    // Serialize
+    // function load() {
+    //     var mysongs = JSON.parse(songs);
+    //     alert(mysongs.length);
+
+    //     var div = document.getElementById('songs');
+
+    //     for (i = 0; i < mysongs.length; i++)
+    //         div.innerHTML += "<p id = 'content' id =" + i + + " " + mysongs[i] + "</p> <br>"; 
+    // }
+
+
+    // Smth else
+
+    // var songList = JSON.stringify(songs);
+    // console.log(songList)
+
+    // $.getJSON('songlist.json', function(data) {
+    //     $.each(data.songs)
+    // });
+
+
+    // contents = infile.read()
+    // songs_d = json.loads(contents)
+    // songs = songs_d["songs"]
+    // for (i = 0; i < songs.length; i++) {
+        // document.write(songs[i])
+    // }
+    
+    // document.write("Song data: <br>" + strSongs);
+
+
+/* 
+        strObject = JSON.stringify(animal)
+        alert(strObject)
+        objAnimal = JSON.parse(strObject)
+        alert(objAnimal)
+        document.write("<br> Animal name is " + objAnimal["name"])
+        document.write("<br> Animal name is " + objAnimal.type) */
+
+    </script>
+<!-- <body onload = "load()"> -->
+<body>
+    <!-- <div id = "data"> -->
+
+    <!-- </div> -->
+</body>
+</html>
+
