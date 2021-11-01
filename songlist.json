@@ -1,0 +1,62 @@
+ [
+    {
+      "title": "Halloween",
+      "artists": ["Novo Amor"],
+      "genre": ["Alternative", "Indie"],
+      "year": 2020
+    },
+    {
+      "title": "evermore",
+      "artists": ["Taylor Swift", "Bon Iver"],
+      "genre": ["Alternative","Indie"],
+      "year": 2021
+    },
+    {
+      "title": "Petrified",
+      "artists": ["DROELOE"],
+      "genre": ["Electronic"],
+      "year": 2020
+    },
+    {
+      "title": "Take Three",
+      "artists": ["Jerry Folk"],
+      "genre": ["Electronic"],
+      "year": 2020
+    },
+    {
+      "title": "Makeba",
+      "artists": ["Jain"],
+      "genre": ["Pop"],
+      "year": 2016
+    },
+    {
+      "title": "Holocene",
+      "artists": ["Bon Iver"],
+      "genre": ["Alternative","Indie"],
+      "year": 2011
+    },
+    {
+      "title": "Time",
+      "artists": ["John Lucas"],
+      "genre": ["Christian"],
+      "year": 2015
+    },
+    {
+      "title": "Citizens",
+      "artists": ["Jon Guerra"],
+      "genre": ["Christian"],
+      "year": 2020
+    },
+    {
+      "title": "Heart Gone Wild",
+      "artists": ["John Lucas"],
+      "genre": ["Christian"],
+      "year": 2015
+    },
+    {
+      "title": "Have it All",
+      "artists": ["Bethel Music", "Brian Johnson", "Lindsey Strand"],
+      "genre": ["Christian"],
+      "year": 2015
+    }
+]
